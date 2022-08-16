@@ -1,0 +1,270 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ededed;
+    font-family: 'Trebuchet MS';
+    justify-content: center;
+}
+
+.Container {
+    width: 90%;
+    max-width:1100px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #3f4e5a;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header span {
+    color: rgb(17, 15, 39);
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #272358;
+}
+
+.content_home {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.content_feedback {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #fff;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.content {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #fff;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+footer {
+    height: 50px;
+    background-color: #3f4e5a;
+    margin-bottom: 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.foot {
+    padding-top:10px;
+    padding-left: 10px;
+    
+}
+
+.main_articles {
+    width: 750px;
+    float: left;
+    margin-left: 10px;
+    
+}
+.main_articles_feedback {
+    width: 500px;
+    float: left;
+    margin-left: 10px;
+    
+}
+.side_article {
+    width: 250px;
+    float: left;
+}
+
+.logo {
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+
+.ads {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #e5eff3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    
+}
+
+nav li {
+    float: left;
+    width:auto;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    width:auto;
+    
+}
+
+nav li a:hover {
+    background-color: #3f4e5a;
+}
+
+.witherror {
+  
+    border: 1px solid rgb(243, 243, 242);
+}
+  
+.witherror label {
+    padding: 2px;
+    line-height: 25px;
+}
+  
+.witherror span {
+    color: red;
+    padding: 10px;
+    font-size: 90%;
+}
+
+#errors{
+    padding-top: 100px;
+    color:red;
+    width:auto;
+  
+    border: 1px solid white;
+}
+
+form {
+    padding: 10px;
+    width: 250px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 5px;
+}
+
+.side_error {
+    width: 250px;
+    float: left;
+}
+
+.interest_desc {
+    float:left;
+    
+    width:250px;
+    margin:5px;
+    padding-left:10px;
+    
+}
+
+.nest_interest {
+    float:left;
+    
+    width:auto;
+    padding-top: 50px;
+    padding-left:10px;
+    margin:5px;
+    
+}
+
+.video {
+    float:left;
+    
+    width:auto;
+    padding-top: 50px;
+    margin:5px;
+    padding-left:10px;
+    
+}
+
+.main_articles_interests {
+    float: left;
+    margin:auto;
+    width:100%; 
+    max-width:1100px;
+    align-content:center;
+}
+
+.main_articles_expertise {
+    float: left;
+    padding: 10px;
+    margin:auto;
+}
+
+.card_container {
+    margin: auto;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    width:225px;
+    justify-content:center;
+}
+
+.name_container {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+    width: 70%;
+    justify-content: center;
+    margin:auto;
+}
+
+.Grid{
+display:flex;
+flex-direction:column;
+}
+
+.pagination {
+    padding-top:15px;
+    margin:auto;
+}
+
+#ytplayer{
+margin:auto;
+    width:90%;
+}
+
+.email_head{
+    font-weight: bold;
+}
+table,
+td {
+    border: 1px solid #333;
+    width:300px;
+    margin:auto;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
